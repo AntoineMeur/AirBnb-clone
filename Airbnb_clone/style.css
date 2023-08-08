@@ -1,0 +1,203 @@
+/* nav */
+
+.navbar a, footer a {
+    color: black;
+}
+
+.fa-airbnb {
+    color: red;
+}
+
+.navbar-brand {
+    font-size:30px;
+    margin-left: 50px
+}
+
+.navbar {
+    font-weight:500;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+    height: 80px;
+}
+
+.nav-item {
+    margin-right: 8px;
+}
+
+.d-md-flex .nav-item:hover {
+    background-color:gainsboro;
+    border-radius: 20%;
+}
+
+#search {
+    margin-right: 50px;
+}
+
+.dropdown-item, .dropdown-header {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.nav-link {
+    font-size: 15px;
+}
+
+@media all and (max-width:810px) {
+    .d-md-flex .nav-link {
+        font-size: 12px;
+    }
+    #main a {
+        font-size: 20px;
+    }
+    #soccer{
+        padding:0 20px !important;
+        height: 180px !important;
+    }
+   .fillerTitle2 {
+    font-size: 25px !important;
+    padding-left:0;
+   }
+   .subtitle {
+    font-size: 15px !important;
+   }
+   .social {
+    text-align: start !important;
+   }
+   #inline {
+    display:block !important;
+    padding-left: 0 !important;
+
+   }
+   #disclaimer {
+    border-top: 1px solid grey;
+   }
+}
+
+
+/* main */
+
+#main_image {
+    border-radius: 20px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#soccer {
+    height: 500px;
+    padding-top: 120px;
+    padding-left: 50px;
+
+}
+
+#main {
+    margin-top: 100px;
+}
+
+#main a:hover, .filler1 a:hover, #filler2 a:hover, footer a:hover {
+    color:black;
+}
+
+.bold_main {
+    font-weight:600;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.bold {
+    font-weight:600;
+    font-size:35px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.bold2 {
+    font-weight: 500;
+    font-size: 22px;
+    color:black;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#filler2 {
+    background-color:ghostwhite;
+    padding-top:20px;
+    width: 100%;
+    height:max-content;
+
+}
+
+.bg-color {
+    background-color: white;
+    padding:0 9px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 50px;
+}
+
+.image2 {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    padding: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.fillerTitle2 {
+    margin-bottom: 20px;
+    font-weight:600;
+    font-size:35px;
+    margin-top: 15px;
+}
+
+.ScrollableRow {
+
+    overflow-x: scroll;
+}
+
+.inline, #inline {
+    display: inline;
+    padding: 5px 5px 5px 15px;
+}
+
+
+.puce {
+    list-style: none;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: gainsboro;
+    font-size: 12px;
+    
+}
+
+footer span {
+    font-weight: 700;
+}
+
+footer i {
+    font-size: 20px;
+    padding-right:6px;
+}
+
+.social {
+    text-align: end;
+}
+
+#disclaimer, .legal {
+    padding: 20px 10px 10px 50px;
+    
+}

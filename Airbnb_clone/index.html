@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e067495424.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <title>Airbnb</title>
+  </head>
+
+  <body>
+
+  <!--nav-->
+    <nav class="navbar navbar-expand-md">
+
+        <a class="navbar-brand" href="#">
+            <i class="fa-brands fa-airbnb"></i> News</a>
+        <div class="d-none d-md-flex ml-auto">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Media Assets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Product releases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"><i class="fa-solid fa-globe"></i></a>
+                    <div class="dropdown-menu">
+                       <a class="dropdown-header" href="#">English
+                        <ul>
+                            <li class="dropdown-item">AU and NZ</li>
+                            <li class="dropdown-item">India</li>
+                            <li class="dropdown-item">Malaysia</li>
+                            <li class="dropdown-item">United Kingdom</li>
+                            </ul>
+                        </a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Espanol</a>
+                        <a class="dropdown-item" href="#">Francais</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                    </div>
+                </li>
+                <li class="nav-item" id="search">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="d-block d-md-none">
+            <!--
+        <a class="navbar-toggler ml-auto d-block d-md-none" role="button" href="#navbarmenu" data-toggle="collapse" id="navmenutoggler">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarmenu">
+            <form>
+            <input class="nav-item nav-link" type="search" placeholder="search">
+            <select class="nav-item nav-link" name="langage">
+                <option>English</option>
+                <option>Deutsch</option>
+                <option>Espanol</option>
+                <option>Francais</option>
+                <option>Italiano</option></select>
+            </form>
+            <a href="#" class="nav-item nav-link"> About us</a>
+            <a href="#" class="nav-item nav-link"> Media assets</a>
+            <a href="#" class="nav-item nav-link"> Product releases</a>
+            <a href="#" class="nav-item nav-link"> Contact</a>
+
+        </div>  -->
+
+        <div class="btn-group dropleft">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" >Menu</button>
+            <div class="dropdown-menu dropdown-menu-left">
+                <form class="dropdown-item">
+              <input type="search" placeholder="Search" id="search" ></form>
+              <div class="dropdown-divider"></div>
+              <form class="dropdown-item">
+              <select name="langage">
+                <optgroup label="English">
+                    <option>AU and NZ</option>
+                    <option>India</option>
+                    <option>Malaysia</option>
+                    <option>United Kingdom</option></optgroup>
+                <option>Deutsch</option>
+                <option>Espanol</option>
+                <option>Francais</option>
+                <option>Italiano</option></select> </form>
+                <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">About us</a>
+              <a class="dropdown-item" href="#">Media assets</a>
+              <a class="dropdown-item" href="#">Product releases</a>
+              <a class="dropdown-item" href="#">Contact</a>
+            </div>
+          </div>
+
+
+        </div> 
+
+    </nav>
+
+    <!-- 1st row -->
+
+    <div class="container-fluid" id="main">
+        <div class="row">
+        <div class="col-md-6 order-2 order-md-1" id="soccer">
+          <p>Jul 11, 2023 </p>
+          <a href="#" class="bold_main"> Aussies and Kiwis prepare to host soccer fans from around the world.</a><br>
+          <button class="btn btn-danger btn-lg mt-5px">Read more</button>
+        </div>
+        <div class="col-md-6 order-1 order-md-2">
+            <img src="./images/main.jpg" class="img-responsive image" id="main_image">
+        </div>
+        </div>
+    </div>
+
+    <!-- 2nd row -->
+
+    <h2 class="bold fillerTitle">Latest News</h2>
+
+    <div class="container-fluid">
+        <div class="row filler1">
+        <div class="col-12 col-md-6">
+            <div class="row">
+            <div class="col-6">
+                <img src="./images/1-1.jpg" class="img-responsive image my-5">
+            </div>
+            <div class="col-6 my-5"><a href="#" class="bold2">Game, set, match: Perfect your serve in these listings with a tennis court</a><br>July 17, 2023</div></div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-6">
+                <img src="./images/1-2.jpg" class="img-responsive image my-5" >
+            </div>
+            <div class="col-6 my-5"><a href="#" class="bold2">Airbnb’s most hospitable Host in every US state</a><br>July 13, 2023</div></div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="row">
+            <div class="col-6">
+                <img src="./images/1-3.jpg" class="img-responsive image mb-5">
+            </div>
+            <div class="col-6"><a href="#" class="bold2">Step into history at the home of the founder of the modern Olympic Games</a><br>July 10, 2023</div></div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-6">
+                <img src="./images/1-4.jpg" class="img-responsive image mb-5" >
+            </div>
+            <div class="col-6"><a href="#" class="bold2">Team up with Marc Marquez for an exclusive MotoGP™ stay</a><br>July 6, 2023</div></div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Filler 2-->
+
+      <div id="filler2" class="container-fluid">
+
+        <div class="fillerTitle2 col-12">The economic opportunities of hosting<br>
+        <div class="subtitle">More people are turning to hosting for the first time. From community<br> stories, to the latest Host earnings data and trends, discover how it has<br> never been easier to host and earn on Airbnb.</div>
+        </div>
+
+        <div class="row flex-nowrap ScrollableRow">
+           <div class="col-12 col-md-4">
+            <img src="./images/2-1.jpg" class="img-responsive image2">
+            <div class="bg-color"><a href="#" class="bold2">Chicago and Denver rank as top cities to starts hosting in the US</a>
+            <br>June 21, 2023</div>
+           </div>
+           <div class="col-12 col-md-4">
+            <img src="./images/2-2.jpg" class="img-responsive image2">
+            <div class="bg-color"><a href="#" class="bold2">US educators are earning extra income by hosting on Airbnb</a>
+            <br>May 31, 2023</div>
+            </div>
+            <div class="col-12 col-md-4 radius">
+            <img src="./images/2-3.jpg" class="img-responsive image2">
+            <div class="bg-color"><a href="#" class="bold2">More EU hosts rely on Airbnb income, popularity of rooms grows</a>
+            <br>May 3, 2023</div>
+            </div>
+            <div class="col-12 col-md-4 radius">
+            <img src="./images/2-4.jpg" class="img-responsive image2">
+            <div class="bg-color"><a href="#" class="bold2">Louisville leads as top trending summer spot before kentucky derby week-end</a>
+            <br>May 3, 2023</div>
+        </div>
+        </div>
+    </div>
+    
+    
+
+    <footer>
+
+        <div class="container-fluid">
+            <div class="row border-bot">
+            <div class="col-12 col-md-3">
+                    <ul class="puce">
+                    <li><span>Support</span></li>
+                    <li><a href="#">Help center</a></li>
+                    <li><a href="#">Aircover</a></li>
+                    <li><a href="#">Supporting people with disabilities</a></li>
+                    <li><a href="#">Cancellation options</a></li>
+                    <li><a href="#">Our covid-19 response</a></li>
+                    <li><a href="#">Report a neighborhood concern</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <ul class="puce">
+                    <li><span>Community</span></li>
+                    <li><a href="#">Airbnb.org: disaster relief housing</a></li>
+                    <li><a href="#">Combating discrimination</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <ul class="puce">
+                    <li><span>Hosting</span></li>
+                    <li><a href="#">Airbnb your home</a></li>
+                    <li><a href="#">AirCover for Hosts</a></li>
+                    <li><a href="#">Explore hosting resources</a></li>
+                    <li><a href="#">Visit our community forum</a></li>
+                    <li><a href="#">How to host responsibly</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <ul class="puce">
+                    <li><span>About</span></li>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#">Learn about new features</a></li>
+                    <li><a href="#">Letter from our founders</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investors</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-12 col-md-6" id="disclaimer">
+                <span>Disclaimer</span>
+                <p>The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience listings on the Airbnb platform.</p>
+            </div>
+            </div>
+        </div>
+
+       <div class="container-fluid">
+        <div class="row border-bot">
+        <div class="col-12 col-md-6 order-2 order-md-1 legal">
+            <div>© 2023 Airbnb, Inc. All rights reserved
+            <ul id="inline">
+                <li class="inline"><a href="#">Privacy</a></li>
+                <li class="inline"><a href="#">Terms</a></li>
+                <li class="inline"><a href="#">Site map</a></li>
+            </ul></div>
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2 social legal">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        </div>
+       </div>
+    
+
+
+
+    </footer>
+
+    <!- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    </body>
+ </html>
+   
